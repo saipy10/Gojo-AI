@@ -9,5 +9,8 @@ dependencies = [
     "langchain-google-genai>=2.1.12",
     "langgraph>=0.6.8",
     "opencv-python>=4.12.0.88",
+    "pyaudio>=0.2.14",
+    "pydub>=0.25.1",
     "python-dotenv>=1.1.1",
+    "speechrecognition>=3.14.3",
 ]
