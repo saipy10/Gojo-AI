@@ -6,6 +6,7 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "elevenlabs>=2.16.0",
+    "gradio>=5.49.0",
     "groq>=0.32.0",
     "gtts>=2.5.4",
     "langchain-google-genai>=2.1.12",

@@ -29,5 +29,3 @@ def ask_agent(user_query: str)->str:
     response = agent.invoke(input_messages)
     
     return response["messages"][-1].content
-
-# print(ask_agent(user_query="What is 5+5?"))

@@ -60,6 +60,3 @@ def analyze_image_with_query(query: str) -> str:
     chat_completion = client.chat.completions.create(messages=messages, model=model)
 
     return chat_completion.choices[0].message.content
-
-# query = "Describe the image?"
-# print(analyze_image_with_query(query))
